@@ -1,0 +1,6 @@
+version: '2'
+services:
+  chromaprint_image:
+    build: .
+    volumes:
+      - ".:/app"
